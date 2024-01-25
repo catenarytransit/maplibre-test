@@ -22,3 +22,11 @@ TODO
 [Leptos](https://leptos.dev/)
 
 [Dioxus](https://dioxuslabs.com/)
+
+### Installation for Ubuntu
+
+You'll need the Rust FFI bindings to these GUI libraries to compile:
+
+```bash
+sudo apt install librust-xkbcommon-sys-dev librust-wayland-sys-dev
+```
